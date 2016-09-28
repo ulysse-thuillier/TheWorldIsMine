@@ -13,8 +13,12 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Standard.Actor" uid="2867bd54-c855-4781-9579-ca64e30cf48a"/>
+      </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3b174345-c8fe-4dbd-af83-7a09fd988a07"/>
+        <COMPID name="theworldismine_uml Use Case diagram" mc="Standard.UseCaseDiagram" uid="505e762f-b915-49cf-bbf4-f01cffebc116"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
