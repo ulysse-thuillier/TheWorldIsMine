@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="theworldismine_uml" version="4">
+  <OBJECT>
+    <ID name="theworldismine_uml" mc="Standard.Package" uid="aa3a2fd9-0fd5-4b26-a12d-e3d4780d3dff"/>
+    <PID name="TheWorldIsMine_UML" mc="Standard.Project" uid="a5eec7f4-4dee-4a79-ab34-2b58df18c495"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[theworldismine_uml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3b174345-c8fe-4dbd-af83-7a09fd988a07"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

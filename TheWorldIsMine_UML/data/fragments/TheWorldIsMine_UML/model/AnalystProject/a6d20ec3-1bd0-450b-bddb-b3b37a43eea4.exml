@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TheWorldIsMine_UML" version="4">
+  <OBJECT>
+    <ID name="TheWorldIsMine_UML" mc="Standard.AnalystProject" uid="a6d20ec3-1bd0-450b-bddb-b3b37a43eea4"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TheWorldIsMine_UML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="TheWorldIsMine_UML" mc="Standard.PropertyContainer" uid="3cab7beb-25a5-4dac-be27-1d1dbbe874f4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

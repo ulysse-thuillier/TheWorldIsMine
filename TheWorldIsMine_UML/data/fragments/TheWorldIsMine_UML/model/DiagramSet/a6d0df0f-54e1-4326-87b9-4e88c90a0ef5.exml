@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TheWorldIsMine_UML" version="4">
+  <OBJECT>
+    <ID name="TheWorldIsMine_UML" mc="Standard.DiagramSet" uid="a6d0df0f-54e1-4326-87b9-4e88c90a0ef5"/>
+    <PID name="TheWorldIsMine_UML" mc="Standard.Project" uid="a5eec7f4-4dee-4a79-ab34-2b58df18c495"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TheWorldIsMine_UML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
