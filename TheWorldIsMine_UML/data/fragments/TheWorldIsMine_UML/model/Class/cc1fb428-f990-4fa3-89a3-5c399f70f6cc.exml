@@ -1,15 +1,17 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Actor" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JPopUpMenu" version="4">
   <OBJECT>
-    <ID name="Actor" mc="Standard.Actor" uid="2867bd54-c855-4781-9579-ca64e30cf48a"/>
+    <ID name="JPopUpMenu" mc="Standard.Class" uid="cc1fb428-f990-4fa3-89a3-5c399f70f6cc"/>
     <PID name="theworldismine_uml" mc="Standard.Package" uid="aa3a2fd9-0fd5-4b26-a12d-e3d4780d3dff"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Actor]]></ATT>
+      <ATT name="Name"><![CDATA[JPopUpMenu]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

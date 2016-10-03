@@ -14,7 +14,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Actor" mc="Standard.Actor" uid="2867bd54-c855-4781-9579-ca64e30cf48a"/>
         <COMPID name="GameMap" mc="Standard.Class" uid="4916fa37-e44a-4e0f-8b16-77e17914ec92"/>
         <COMPID name="Launcher" mc="Standard.Class" uid="1d5fac9c-c187-4239-a49e-ba484bd822e8"/>
         <COMPID name="JFrame" mc="Standard.Class" uid="a9faabfe-efff-4ae6-a8ff-d608d339c019"/>
@@ -34,10 +33,13 @@
         <COMPID name="JPanel" mc="Standard.Class" uid="985f5c0c-f558-4f1c-b851-aeb5d4c1b154"/>
         <COMPID name="JLabel" mc="Standard.Class" uid="6fb479c8-142a-4731-a206-50de81b9436a"/>
         <COMPID name="GameCanvas" mc="Standard.Class" uid="258a57f6-e631-4284-8f55-fa415a0a1666"/>
+        <COMPID name="ItemInfoDisplay" mc="Standard.Class" uid="31510e80-9f79-479f-b29d-6fc1364c52b0"/>
+        <COMPID name="GeneralInfoDisplay" mc="Standard.Class" uid="fa745e57-54d6-4bc0-be0a-89ebc9372f08"/>
+        <COMPID name="ActionDisplay" mc="Standard.Class" uid="a2924a87-5d95-456f-9125-139c05142387"/>
+        <COMPID name="JPopUpMenu" mc="Standard.Class" uid="cc1fb428-f990-4fa3-89a3-5c399f70f6cc"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3b174345-c8fe-4dbd-af83-7a09fd988a07"/>
-        <COMPID name="theworldismine_uml Use Case diagram" mc="Standard.UseCaseDiagram" uid="505e762f-b915-49cf-bbf4-f01cffebc116"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

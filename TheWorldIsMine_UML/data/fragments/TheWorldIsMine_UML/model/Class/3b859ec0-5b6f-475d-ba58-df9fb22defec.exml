@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="88fc7de5-2642-4c15-9edb-3949dd0754bf"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="5d804887-3a13-45e8-84eb-ef79011c1054"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,7 +25,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="JFrame" mc="Standard.Class" uid="a9faabfe-efff-4ae6-a8ff-d608d339c019"/>
+              <ID name="JPopUpMenu" mc="Standard.Class" uid="cc1fb428-f990-4fa3-89a3-5c399f70f6cc"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
