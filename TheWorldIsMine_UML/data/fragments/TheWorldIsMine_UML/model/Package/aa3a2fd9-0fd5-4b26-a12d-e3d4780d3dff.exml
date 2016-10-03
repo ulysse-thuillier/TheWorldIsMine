@@ -36,7 +36,10 @@
         <COMPID name="ItemInfoDisplay" mc="Standard.Class" uid="31510e80-9f79-479f-b29d-6fc1364c52b0"/>
         <COMPID name="GeneralInfoDisplay" mc="Standard.Class" uid="fa745e57-54d6-4bc0-be0a-89ebc9372f08"/>
         <COMPID name="ActionDisplay" mc="Standard.Class" uid="a2924a87-5d95-456f-9125-139c05142387"/>
-        <COMPID name="JPopUpMenu" mc="Standard.Class" uid="cc1fb428-f990-4fa3-89a3-5c399f70f6cc"/>
+        <COMPID name="JPopupMenu" mc="Standard.Class" uid="cc1fb428-f990-4fa3-89a3-5c399f70f6cc"/>
+        <COMPID name="UnitInfoDisplay" mc="Standard.Class" uid="cc3a6343-89f4-4f8a-af19-b6fdfe070721"/>
+        <COMPID name="BuildingInfoDisplay" mc="Standard.Class" uid="c415d72b-cb6c-4b9b-b6a0-ee38e4f101a2"/>
+        <COMPID name="MiniMap" mc="Standard.Class" uid="65dace63-249d-4ee4-af51-daf4475aa56c"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3b174345-c8fe-4dbd-af83-7a09fd988a07"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ActionDisplay" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BuildingInfoDisplay" version="4">
   <OBJECT>
-    <ID name="ActionDisplay" mc="Standard.Class" uid="a2924a87-5d95-456f-9125-139c05142387"/>
+    <ID name="BuildingInfoDisplay" mc="Standard.Class" uid="c415d72b-cb6c-4b9b-b6a0-ee38e4f101a2"/>
     <PID name="theworldismine_uml" mc="Standard.Package" uid="aa3a2fd9-0fd5-4b26-a12d-e3d4780d3dff"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ActionDisplay]]></ATT>
+      <ATT name="Name"><![CDATA[BuildingInfoDisplay]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="actions" mc="Standard.AssociationEnd" uid="aeb1a252-ebc4-4ce6-bc2e-60b30de5c023"/>
+          <ID name="production" mc="Standard.AssociationEnd" uid="20b51fdb-bb02-454b-8905-9957489c60e4"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -26,20 +26,20 @@
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[actions]]></ATT>
+            <ATT name="Name"><![CDATA[production]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="JButton" mc="Standard.Class" uid="5e7df4e9-ae01-4053-89ee-6456f80260cf"/>
+              <ID name="JLabel" mc="Standard.Class" uid="6fb479c8-142a-4731-a206-50de81b9436a"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="7b4b2680-f2c2-4576-a404-9768905efea5"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="601b90f2-7768-4620-bb3b-f556fa7a2d5c"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -57,11 +57,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="actions" mc="Standard.AssociationEnd" uid="aeb1a252-ebc4-4ce6-bc2e-60b30de5c023"/>
+                    <COMPID name="production" mc="Standard.AssociationEnd" uid="20b51fdb-bb02-454b-8905-9957489c60e4"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="e0f17ba6-b123-4356-ae70-61c0810af96f"/>
+                      <ID name="" mc="Standard.Association" uid="89c7dd02-6c22-413b-9c33-c6fdf4bcdaa7"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -73,14 +73,14 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="e0f17ba6-b123-4356-ae70-61c0810af96f"/>
+              <COMPID name="" mc="Standard.Association" uid="89c7dd02-6c22-413b-9c33-c6fdf4bcdaa7"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="3e7bda1f-227f-4356-be06-2698a94a250b"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="609d297d-199b-41b3-b232-2d3e916316aa"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -88,7 +88,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="JPanel" mc="Standard.Class" uid="985f5c0c-f558-4f1c-b851-aeb5d4c1b154"/>
+              <ID name="ItemInfoDisplay" mc="Standard.Class" uid="31510e80-9f79-479f-b29d-6fc1364c52b0"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
