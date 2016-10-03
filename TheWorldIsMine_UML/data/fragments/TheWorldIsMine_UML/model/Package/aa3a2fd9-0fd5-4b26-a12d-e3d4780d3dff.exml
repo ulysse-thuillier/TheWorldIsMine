@@ -15,6 +15,25 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Standard.Actor" uid="2867bd54-c855-4781-9579-ca64e30cf48a"/>
+        <COMPID name="GameMap" mc="Standard.Class" uid="4916fa37-e44a-4e0f-8b16-77e17914ec92"/>
+        <COMPID name="Launcher" mc="Standard.Class" uid="1d5fac9c-c187-4239-a49e-ba484bd822e8"/>
+        <COMPID name="JFrame" mc="Standard.Class" uid="a9faabfe-efff-4ae6-a8ff-d608d339c019"/>
+        <COMPID name="GameWindow" mc="Standard.Class" uid="f85d9c75-8304-4e73-92b0-d66f755b3d61"/>
+        <COMPID name="PopUp" mc="Standard.Interface" uid="7a57c25e-f09b-4e0e-9fd5-29c97b331ccc"/>
+        <COMPID name="ConfirmPopUp" mc="Standard.Class" uid="45eb375a-7dd7-4ebf-831b-e889890a36f0"/>
+        <COMPID name="JOptionPane" mc="Standard.Class" uid="9ff6a8a0-f38b-40b6-9d66-b2c6d6c54733"/>
+        <COMPID name="LoadSelectionPopUp" mc="Standard.Class" uid="7cfca6fe-09e0-420e-96bb-d8cc23e674db"/>
+        <COMPID name="JButton" mc="Standard.Class" uid="5e7df4e9-ae01-4053-89ee-6456f80260cf"/>
+        <COMPID name="MyButton" mc="Standard.Class" uid="4516a3c1-55fa-4edd-9492-326dab109b30"/>
+        <COMPID name="WindowClosingListener" mc="Standard.Class" uid="c09e8dd9-83a6-4d03-bd5d-21ecbcee6cbc"/>
+        <COMPID name="ProgramClosingListener" mc="Standard.Class" uid="39e0103c-fa72-41cb-b7c6-bc02190f74eb"/>
+        <COMPID name="WindowAdapter" mc="Standard.Class" uid="bf5567e5-c0f8-4e9f-b941-35a03e6451ec"/>
+        <COMPID name="MenuPopUp" mc="Standard.Class" uid="3b859ec0-5b6f-475d-ba58-df9fb22defec"/>
+        <COMPID name="NewGamePopUp" mc="Standard.Class" uid="fe998b4f-1b0f-4e50-adde-f4c5453e01be"/>
+        <COMPID name="ConnectionPopUp" mc="Standard.Class" uid="a2e6f29b-0be8-44a7-b52e-4c924ed9277a"/>
+        <COMPID name="JPanel" mc="Standard.Class" uid="985f5c0c-f558-4f1c-b851-aeb5d4c1b154"/>
+        <COMPID name="JLabel" mc="Standard.Class" uid="6fb479c8-142a-4731-a206-50de81b9436a"/>
+        <COMPID name="GameCanvas" mc="Standard.Class" uid="258a57f6-e631-4284-8f55-fa415a0a1666"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3b174345-c8fe-4dbd-af83-7a09fd988a07"/>
